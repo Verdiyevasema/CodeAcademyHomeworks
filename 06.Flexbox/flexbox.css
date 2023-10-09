@@ -1,0 +1,117 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.h1 {
+    text-align: center;
+    position: absolute;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 500;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.box {
+    flex: 1;
+    max-width: 30%;
+    height: 100px;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    line-height: 100px;
+    margin: 5px;
+}
+
+.box1 {
+    background-color: skyblue;
+    flex-grow: 1;
+    max-width: none;
+}
+
+.box2 {
+    background-color: purple;
+    flex-grow: 1;
+    max-width: none;
+}
+
+.box3 {
+    background-color: orangered;
+    flex-grow: 1;
+    max-width: none;
+}
+
+.box4 {
+    background-color: skyblue;
+    flex-grow: 1;
+    max-width: none;
+}
+
+.box5 {
+    background-color: skyblue;
+}
+
+.box6 {
+    background-color: purple;
+}
+
+.box7 {
+    background-color: orangered;
+}
+
+.box8 {
+    background-color: greenyellow;
+}
+
+.box9 {
+    background-color: green;
+}
+
+.box10 {
+    background-color: skyblue;
+    flex-grow: 1;
+    max-width: none;
+}
+
+.box11 {
+    background-color: purple;
+    flex-grow: 1;
+    max-width: none;
+}
+
+.box12 {
+    background-color: skyblue;
+}
+
+.box13 {
+    background-color: purple;
+}
+
+.box14 {
+    background-color: orangered;
+}
+
+.box15 {
+    background-color: greenyellow;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    margin: 10px 30px;
+}
+
+
+
+
+
