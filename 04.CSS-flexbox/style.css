@@ -17,14 +17,9 @@ nav ul li a {
 
 .container {
     max-width: 800px;
-    margin: 0 auto;
     padding: 20px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 450px;
+    margin-left: 410px;
     margin-top: 0;
 }
 
@@ -57,9 +52,22 @@ nav ul li a {
 
 .sidebar ul li a {
     text-decoration: none;
-    color: black;
 }
 
 .sidebar ul li {
     font-weight: bold;
+}
+
+.product-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    margin-left: auto;
+}
+
+.shoe p {
+    text-align: left;
 }
