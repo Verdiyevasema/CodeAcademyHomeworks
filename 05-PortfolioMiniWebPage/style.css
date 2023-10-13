@@ -123,10 +123,6 @@
   .social-icons a:hover {
     color: orange;
   }
-  .container2 {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
 
   #about {
     background-color: white;
@@ -276,7 +272,7 @@ background-color: orange;
   .service1 img {
     max-width: 30px; 
     display: block; 
-    margin: 0 auto 10px; /
+    margin: 0 auto 10px; 
 }
 
 #contact {
