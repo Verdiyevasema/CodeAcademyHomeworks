@@ -5,22 +5,28 @@
 }
 
 .container {
-    height: 100vh;
+    height: 500px;
     display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    row-gap: 10px;
+    width: 100%;
 }
 
-.left, .right {
-    width: 50%;
+.top, .bottom {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50%;
+width: 100%;
+column-gap: 10px;
 }
 
-.box-50 {
-    justify-content: space-between;
+.top .left {
+    column-gap: 10px;
     display: flex;
-}
-
-.box-25 {
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    height: 100%;
 }
 
 .box {
@@ -29,39 +35,73 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2%;
-    border-radius: 7px;
+    border-radius: 5px;
     width: 100%;
     height: 100%;
+}
+
+.box-25 {
+    display: flex;
+    height: 50%;
+    column-gap: 10px;
+}
+
+.projects {
+    height: 50%;
+}
+
+.top .right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.bottom .left {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.pricing {
+    height: 50%;
+    width: 100%;
 }
 
 @media only screen and (max-width: 1023px) {
     .box {
         background-color: green;
-        height: 100px;
-        width: 100%;
     }
 
-    .container {
-        width: 100%;
+    .top, .bottom {
         flex-direction: column;
-        
-    }
-
-    .left, .right {width: 100%;}
-    
+        row-gap: 10px;
+    }  
 }
 
 @media only screen and (max-width:767px) {
-    .box {background-color: red;
-    height: 50px;}
-    .box-50 {
+    .container {
         flex-direction: column;
+        row-gap: 10px;
+        height: 100%;
     }
-
+    .top, .bottom {
+        height: 100%;
+    }
+    .box {
+        background-color: red;
+        height: 50px;
+    }
+    .left {
+        flex-direction: column;
+        row-gap: 10px;
+    }
     .box-25 {
-      flex-direction: column;  
+        flex-direction: column;
+        height: 100%;
+        row-gap: 10px;
     }
-    
-    .left, .right {width: 100%;}
 }
