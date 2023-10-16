@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#top-section {
+    background-color: lightgrey;
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bottom-section {
+    background-color: white;
+    padding: 20px;
+}
+
+#green-header {
+    font-size: 20px;
+    color: green;
+}
+
+.box {
+    width: 30%;
+    background-color: #d0d0d0;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box img {
+    max-width: 100%;
+  
+}
+
+.icon {
+    width: 40px; /* Adjust the width and height as needed */
+    height: 40px;
+
+}
+
+.header-box {
+    background-color: #d0d0d0;
+    padding: 10px;
+}
+
+.header-box #header-top {
+    font-size: 20px;
+}
+
+.description-box {
+    padding: 10px;
+}
+
+.description-box #description {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.box h3 {
+    font-size: 18px;
+}
+
+.box p {
+    font-size: 16px;
+    color: #0077cc;
+}
+
+.green-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Media query for tablets */
+@media screen and (max-width: 1023px) {
+    #top-section, #bottom-section {
+        padding: 10px;
+    }
+    .box, .row {
+        width: 45%;
+        margin: 5px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    body {
+
+        .container {
+            flex-direction: column;
+            row-gap: 10px;
+            height: 100%;
+        }
+        font-size: 14px;
+    }
+    #top-section, #bottom-section {
+        padding: 5px;
+    }
+    .box, .row {
+        width: 80%;
+        margin: 3px;
+    }
+    
+    /* Change the layout to stack boxes vertically */
+    #top-section .box,
+    #bottom-section .box {
+        flex-direction: column;
+        text-align: center;
+    }
+}
