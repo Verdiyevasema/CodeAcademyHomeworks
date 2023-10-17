@@ -39,7 +39,7 @@ body {
 }
 
 .icon {
-    width: 40px; /* Adjust the width and height as needed */
+    width: 40px; 
     height: 40px;
 
 }
@@ -92,10 +92,9 @@ body {
     margin: 10px 0;
 }
 
-/* Media query for tablets */
+
 @media screen and (max-width: 1023px) {
-    #top-section, #bottom-section {
-        padding: 10px;
+    #top-section {flex-direction: column;
     }
     .box, .row {
         width: 45%;
@@ -124,7 +123,6 @@ body {
         margin: 3px;
     }
     
-    /* Change the layout to stack boxes vertically */
     #top-section .box,
     #bottom-section .box {
         flex-direction: column;
