@@ -7,7 +7,7 @@ body {
 }
 
 #top-section {
-    background-color: lightgrey;
+    background-color: rgb(213, 238, 238);
     flex: 1;
     padding: 20px;
     display: flex;
@@ -24,10 +24,25 @@ body {
     font-size: 20px;
     color: green;
 }
+ .color-green {
+    color: green;
+ }
+
+ .button:hover {
+    background-color: green;
+ }
+
+ #bottom-section {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: ;
+ }
 
 .box {
     width: 30%;
-    background-color: #d0d0d0;
+    background-color: rgb(213, 238, 238) ;
     text-align: center;
     padding: 10px;
     margin: 10px;
@@ -38,6 +53,10 @@ body {
   
 }
 
+.font {
+    font-family: 'Inconsolata', monospace;
+}
+
 .icon {
     width: 40px; 
     height: 40px;
@@ -45,7 +64,7 @@ body {
 }
 
 .header-box {
-    background-color: #d0d0d0;
+    background-color:rgb(213, 238, 238);
     padding: 10px;
 }
 
@@ -71,6 +90,18 @@ body {
     color: #0077cc;
 }
 
+.icon {
+    background-color: green;
+    color: rgb(179, 169, 169);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid white;
+}
 .green-header {
     display: flex;
     justify-content: center;
@@ -83,11 +114,20 @@ body {
     align-items: center;
 }
 
+.our {
+    font-family: 'Public Sans', sans-serif;
+}
+
+#description {
+    font-family: 'Inconsolata', monospace;
+    color: rgb(146, 146, 146);
+}
+
 .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color:rgb(213, 238, 238);
     padding: 10px;
     margin: 10px 0;
 }
