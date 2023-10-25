@@ -1,0 +1,23 @@
+header {
+  padding: 20px 0;
+  background-color: #20484f;
+  .header {
+    @include flexBox;
+    nav {
+      @include flexBox;
+        width: 60%;
+      a {
+        color: white;
+      }
+      ul {
+        @include flexBox;
+        column-gap: 50px;
+        li {
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

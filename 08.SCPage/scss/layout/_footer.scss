@@ -1,0 +1,31 @@
+footer {
+  padding: 50px 0;
+  background-color: #072125;
+  color: white;
+  .footer {
+    .left-content {
+      width: 30%;
+      .checkboxs {
+        display: flex;
+
+        column-gap: 20px;
+        .form-group {
+          margin-bottom: 10px;
+        }
+      }
+      .inputs {
+        position: relative;
+        input {
+          width: 100%;
+          padding: 10px;
+        }
+        button {
+          position: absolute;
+          right: 0;
+          padding: 10px;
+          
+        }
+      }
+    }
+  }
+}
