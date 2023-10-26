@@ -58,6 +58,16 @@ table {
   padding: 0 3%;
 }
 
+header .header .registr button {
+  border-radius: 25px;
+  cursor: pointer;
+  width: 170px;
+  height: 40px;
+  padding: 10px 36px;
+  background-color: transparent;
+  color: aqua;
+}
+
 header {
   padding: 20px 0;
   background-color: #20484f;
