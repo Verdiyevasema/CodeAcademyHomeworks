@@ -19,8 +19,8 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
+  text-decoration: none;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -98,6 +98,9 @@ header .header nav ul li a {
   -moz-column-gap: 70px;
        column-gap: 70px;
 }
+#hero-section .hero-section .text3 {
+  font-size: 20px;
+}
 #hero-section .hero-section .left-content {
   width: 50%;
   display: flex;
@@ -151,14 +154,20 @@ header .header nav ul li a {
   padding: 50px 0;
   background-color: #e9edee;
 }
-#teams .teams .cards-container {
+#teams .textt .text1, #teams .textt .text2 {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+#teams .cards-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
 }
-#teams .teams .cards-container .card {
+#teams .cards-container .card {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -168,35 +177,38 @@ header .header nav ul li a {
   padding: 30px 0;
   background-color: white;
 }
-#teams .teams .cards-container .card .img {
+#teams .cards-container .card .img {
   width: 150px;
   height: 150px;
 }
-#teams .teams .cards-container .card .img img {
+#teams .cards-container .card .img img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
 }
-#teams .teams .cards-container .card .icons {
+#teams .cards-container .card .icons {
   display: flex;
   -moz-column-gap: 20px;
        column-gap: 20px;
 }
-#teams .teams .cards-container .card .icons i {
+#teams .cards-container .card .icons i {
   padding: 10px;
   border-radius: 50%;
   border: 1px solid black;
 }
-#teams .teams .cards-container .card .icons i:hover {
+#teams .cards-container .card .icons i:hover {
   transition: 0.5s;
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.144);
 }
 
 footer {
-  padding: 50px 0;
+  padding: 60px 0;
   background-color: #072125;
   color: white;
+}
+footer .footer {
+  display: flex;
 }
 footer .footer .left-content {
   width: 30%;
@@ -213,11 +225,19 @@ footer .footer .left-content .inputs {
   position: relative;
 }
 footer .footer .left-content .inputs input {
-  width: 100%;
+  width: 75%;
   padding: 10px;
 }
 footer .footer .left-content .inputs button {
   position: absolute;
   right: 0;
+  width: 20%;
   padding: 10px;
+}
+footer .footer .right-content {
+  width: 70%;
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */

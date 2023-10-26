@@ -3,6 +3,11 @@ header {
   background-color: #20484f;
   .header {
     @include flexBox;
+
+    .registr {
+      @extend %button;
+
+    }
     nav {
       @include flexBox;
         width: 60%;

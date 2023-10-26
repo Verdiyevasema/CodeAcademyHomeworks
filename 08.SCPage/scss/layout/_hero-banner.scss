@@ -4,6 +4,9 @@
   .hero-section {
     @include flexBox;
     column-gap: 70px;
+    .text3 {
+      font-size: 20px;
+    }
     .left-content {
       width: 50%;
       display: flex;
@@ -44,6 +47,7 @@
         }
       }
     }
+
 
     .right-content {
       width: 50%;

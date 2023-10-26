@@ -1,13 +1,13 @@
 footer {
-  padding: 50px 0;
+  padding: 60px 0;
   background-color: #072125;
   color: white;
   .footer {
+    display: flex;
     .left-content {
       width: 30%;
       .checkboxs {
         display: flex;
-
         column-gap: 20px;
         .form-group {
           margin-bottom: 10px;
@@ -16,16 +16,24 @@ footer {
       .inputs {
         position: relative;
         input {
-          width: 100%;
+          width: 75%;
           padding: 10px;
         }
         button {
           position: absolute;
           right: 0;
+          width: 20%;
           padding: 10px;
-          
         }
       }
+    }
+  }
+
+  .footer {
+    .right-content {
+      width: 70%;
+      display: flex;
+      @include flexBox;
     }
   }
 }
