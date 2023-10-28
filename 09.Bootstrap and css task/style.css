@@ -7,12 +7,13 @@
 }
 
 header {
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/692/215/622/han-juri-street-fighter-motorcycle-helmet-with-horn-purple-background-hd-wallpaper-preview.jpg");
+    background-image: url("./image/WhatsApp\ Image\ 2023-10-28\ at\ 22.21.33\ \(2\).jpeg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     background-size: cover;
     height: 800px;
     width: 100%;
+    /* padding: 100px 0; */
 }
 .container {
     max-width: 1200px;
@@ -28,11 +29,139 @@ header {
     
 }
 
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 90px;
+    column-gap: 3rem;
+}
+
  nav ul li a {
     color: white;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 20px;
+}
 
+.logo-lop {
+    color: white;
+    font-size: 45px;
+    padding-top: 65px;
+}
+
+.img-text {
+    text-transform: uppercase;
+    text-align: center;
+    background: transparent;
+    padding: 20px;
+    margin: 20px;
+    margin-right: 700px;
+    margin-top: 150px;
+    border: 2px solid white;
+    width: 100vh;
+    height: 300px;
+    color: white;
+}
+
+.img-text h1 {
+    font-size: 65px;
+    font-weight: 200;
+}
+
+.imgtext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin: 100px 0;
+  margin-right: 100vh;
+}
+
+.text-right h1 {
+  font-weight: 100;
+}
+
+.text-right {
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 55%;
+  background-color: white;
+}
+
+.row :hover {
+  opacity: 0.7;
+}
+
+.text-right h1 {
+  padding: 45px;
+}
+
+.text-right p {
+  padding: 0 30px 40px 30px;
+  line-height: 45px;
+}
+
+
+span {
+  color: white;
+  font-size: 35px;
+}
+
+.boxs {
+  position: relative;
+}
+
+.boxs span {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+}
+
+.h1btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 65px 5px;
+}
+
+.h1-left h1 {
+    font-size: 55px;
+    font-weight: 190;
+}
+
+footer {
+    background-color: black;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  /* height: 20vh; */
+  /* background-color: black; */
+  padding: 0 9%;
+}
+
+.text-p {
+    color: grey;
+}
+.left-foot h2 {
+    color: white;
+}
+
+.left-foot {
+    display: flex;
+}
+
+
+.icons {
+    color: white;
+    font-size: 30px;
+}
+
+.text5 {
+    color: grey;
 }
